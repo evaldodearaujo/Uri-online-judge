@@ -15,7 +15,7 @@ public class Uri1014 {
 		
 		double valor = km / litros;
 		
-		System.out.printf("%.3f", valor, " km/l");
+		System.out.printf("%.3f km/l%n", valor);
 		
 		
 		sc.close();
