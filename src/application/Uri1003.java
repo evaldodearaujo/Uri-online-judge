@@ -2,7 +2,7 @@ package application;
 
 import java.util.Scanner;
 
-public class Uri1001 {
+public class Uri1003 {
 
 	public static void main(String[] args) 
 	{
@@ -10,11 +10,12 @@ public class Uri1001 {
 		
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();
+		
 		int soma = num1 + num2;
 		
-		System.out.println("x = " + soma);
-	
-    sc.close(); 
+		System.out.println("SOMA = " + soma);
+		
+		sc.close();
 	}
 
 }
